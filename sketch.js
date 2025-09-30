@@ -18,12 +18,12 @@ let gameStarted = false;  // Flag to track if the game has started
 function preload() {
   titleScreen = loadImage('angry_pumpkins.jpg');
   imgSkull = loadImage('skull.png');
-  pumpkinImg = loadImage('angry.png');
+  pumpkinImg = loadImage('fire.png');
   imgBoxSkull = loadImage('box.png');
   imgStone1 = loadImage('stone.png');
   imgBone1 = loadImage('bone.png');
   imgPlank1 = loadImage('plank.png');
-  monsterImg = loadImage('monster.png');
+  monsterImg = loadImage('creature.png');
 }
 
 function setup() {
@@ -584,4 +584,5 @@ class SlingShot {
       line(this.origin.x, this.origin.y, pumpkin.position.x, pumpkin.position.y);
     }
   }
+
 }
