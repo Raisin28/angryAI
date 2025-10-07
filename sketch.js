@@ -19,7 +19,7 @@ function preload() {
   titleScreen = loadImage('angry_pumpkins.jpg');
   imgSkull = loadImage('skull.png');
   pumpkinImg = loadImage('fire.png');
-  imgBoxSkull = loadImage('box.png');
+  imgBoxSkull = loadImage('plantThing.png');
   imgStone1 = loadImage('stone.png');
   imgBone1 = loadImage('bone.png');
   imgPlank1 = loadImage('plank.png');
@@ -586,3 +586,4 @@ class SlingShot {
   }
 
 }
+
