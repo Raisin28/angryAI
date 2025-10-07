@@ -21,7 +21,7 @@ function preload() {
   pumpkinImg = loadImage('fire.png');
   imgBoxSkull = loadImage('plantThing.png');
   imgStone1 = loadImage('stone.png');
-  imgBone1 = loadImage('bone.png');
+  imgBone1 = loadImage('pillar.png');
   imgPlank1 = loadImage('plank.png');
   monsterImg = loadImage('creature.png');
 }
@@ -586,4 +586,5 @@ class SlingShot {
   }
 
 }
+
 
