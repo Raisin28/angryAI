@@ -16,7 +16,7 @@ let pumpkinBeingDragged = false;  // Flag to track if the pumpkin is being dragg
 let gameStarted = false;  // Flag to track if the game has started
 
 function preload() {
-  titleScreen = loadImage('homeScreen.jpg');
+  titleScreen = loadImage('homeScreen.jpeg');
   imgSkull = loadImage('skull.png');
   pumpkinImg = loadImage('fire.png');
   imgBoxSkull = loadImage('plantThing.png');
@@ -586,6 +586,7 @@ class SlingShot {
   }
 
 }
+
 
 
 
